@@ -5,11 +5,12 @@ export const Wrapper = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: ${theme.bg.opacity};
+    background: ${theme.text.activeLink};
     position: sticky;
     top: 0;
     min-height: 20px;
     padding: 20px 45px;
+    z-index: 999;
   `}
 `;
 
